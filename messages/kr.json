@@ -1,0 +1,35 @@
+{
+    "MainPage": {
+        "Our_Company": "회사소개",
+        "Ceo Greeting": "대표이사 인사",
+        "Company History": "회사 연혁",
+        "Our Company": "회사개요",
+        "Our Business": "응용분야",
+        "Display": "디스플레이",
+        "Semiconductor": "반도체",
+        "Secondary Battery": "2차 전지",
+        "Part-Materials": "부품 소재",
+
+        "APP Products": "APP 제품",
+        "Surface Treatment": "Surface Treatment",
+        "Nano Coating": "Nano Coating",
+        "Nano Etching": "Nano Etching",
+        "APP Technology": "APP 기술",
+        "Reduction": "Reduction",
+        "Cleaning": "Cleaning",
+        "Recruit": "채용지원",
+        "Support": "고객지원",
+        "News": "지식센터",
+        "Branch Office": "사업장 안내",
+        "Contact Us": "상담 문의",
+        "Banner_1_text": "초대형 플라즈마",
+        "Banner_2_text": "미세 표면 처리 플라즈마",
+        "Banner_3_text": "SETUP이 쉬운 플라즈마",
+        "Banner_4_text": "WAFER SODER BALL REDUCTION",
+
+        "Home_section_1_text_1": "A professional research business of atmospheric plasma",
+        "Home_section_1_text_2": "사람을 소중히 여기는 (주)에이피피는 대기압플라즈마의 전문 연구기업인으로\n 기존 기술한계를 극복하면서 대기압플라즈마 분야를 개척해 나가고 있습니다.\n 20여년 축적된 기술과 노하우로 다양한 종류의 독창적인 대기압플라즈마를\n 개발하여 왔습니다.",
+
+        "end": "end"
+    }
+}

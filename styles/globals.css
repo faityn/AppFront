@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
+
+body {
+    font-family: "Pretendard";
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
+
+.bg-two-color-gradient-white {
+    background: linear-gradient(
+        to bottom,
+        /* Define the direction of the gradient */ /* Color 1 */ #000000 0%,
+        #000000 0%,
+        /* Color 2 with a specified percentage */ #ffffff 100%,
+        /* Color 3 with another specified percentage */ #ffffff 0%
+            /* Optional fourth color to blend to */
+    );
+}
+
+.dropdown:hover > .dropdown-content {
+    display: block;
+}
