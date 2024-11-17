@@ -124,23 +124,65 @@ export const Banner = () => {
     const data = [
         {
             text: t("Banner_1_text"),
-            video_link: "https://res.cloudinary.com/do5useihi/video/upload/v1731403539/APP_video_1_olx606.mp4",
-            
+            video_link:
+                "https://res.cloudinary.com/do5useihi/video/upload/v1731403539/APP_video_1_olx606.mp4",
         },
         {
             text: t("Banner_2_text"),
-            video_link: "https://res.cloudinary.com/do5useihi/video/upload/v1731402243/ILP-1500Sss-online-video-cutter.com-1_czrjs2.mp4",
-            
+            video_link:
+                "https://res.cloudinary.com/do5useihi/video/upload/v1731402243/ILP-1500Sss-online-video-cutter.com-1_czrjs2.mp4",
         },
         {
             text: t("Banner_3_text"),
-            video_link: "https://res.cloudinary.com/do5useihi/video/upload/v1731402246/ILP-600HM-online-video-cutter.com-1-1_tjzyur.mp4",
-            
+            video_link:
+                "https://res.cloudinary.com/do5useihi/video/upload/v1731402246/ILP-600HM-online-video-cutter.com-1-1_tjzyur.mp4",
         },
-       {
+        {
             text: t("Banner_4_text"),
-            video_link: "https://res.cloudinary.com/do5useihi/video/upload/v1731402239/Untitled_video_-_Made_with_Clipchamp_2_ofgaqh.mp4",
-            
+            video_link:
+                "https://res.cloudinary.com/do5useihi/video/upload/v1731402239/Untitled_video_-_Made_with_Clipchamp_2_ofgaqh.mp4",
+        },
+    ];
+    return data;
+};
+
+export const HomeSection2SliderItem = () => {
+    const data = [
+        {
+            image: "/images/arp_series_1.png",
+        },
+        {
+            image: "/images/arp_series_2.png",
+        },
+        {
+            image: "/images/arp_series_3.png",
+        },
+    ];
+    return data;
+};
+
+export const HomeSection3ListItem = () => {
+    const t = useTranslations("MainPage");
+    const data = [
+        {
+            number: "01",
+            text: t("Home_section_3_list_item_1_text"),
+            image: "/images/solution1.png",
+        },
+        {
+            number: "02",
+            text: t("Home_section_3_list_item_2_text"),
+            image: "/images/solution2.png",
+        },
+        {
+            number: "03",
+            text: t("Home_section_3_list_item_3_text"),
+            image: "/images/solution3.png",
+        },
+        {
+            number: "04",
+            text: t("Home_section_3_list_item_4_text"),
+            image: "/images/solution4.png",
         },
     ];
     return data;
