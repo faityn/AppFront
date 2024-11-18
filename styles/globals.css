@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "SourceSerifRegular";
+    src: url("fonts/SourceSerif/SourceSerif4-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
 :root {
     --background: #ffffff;
     --foreground: #171717;
@@ -37,4 +44,8 @@ body {
 
 .dropdown:hover > .dropdown-content {
     display: block;
+}
+
+.fontSourceSerifRegular{
+    font-family: "SourceSerifRegular";
 }
