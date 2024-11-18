@@ -1,5 +1,6 @@
 import { FC, ReactNode } from "react";
 import Header from "./Includes/Header";
+import Footer from "./Includes/Footer";
 interface Props {
   children: ReactNode;
   type?: string;
@@ -11,11 +12,10 @@ const Layout: FC<Props> = ({ children, type }) => {
       <div className={`text-white bg-cover bg-no-repeat  relative`}>
         <Header type={type} />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
 };
 
 export default Layout;
-

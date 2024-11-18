@@ -9,7 +9,6 @@
         "Semiconductor": "반도체",
         "Secondary Battery": "2차 전지",
         "Part-Materials": "부품 소재",
-
         "APP Products": "APP 제품",
         "Surface Treatment": "Surface Treatment",
         "Nano Coating": "Nano Coating",
@@ -26,14 +25,11 @@
         "Banner_2_text": "미세 표면 처리 플라즈마",
         "Banner_3_text": "SETUP이 쉬운 플라즈마",
         "Banner_4_text": "WAFER SODER BALL REDUCTION",
-
         "Home_section_1_text_1": "A professional research business of atmospheric plasma",
         "Home_section_1_text_2": "사람을 소중히 여기는 (주)에이피피는 대기압플라즈마의 전문 연구기업인으로 기존 기술한계를 극복하면서 대기압플라즈마 분야를 개척해 나가고 있습니다. 20여년 축적된 기술과 노하우로 다양한 종류의 독창적인 대기압플라즈마를 개발하여 왔습니다.",
         "more_button_text": "더 알아보기",
-
         "Home_section_2_title": "Arp Series",
         "Home_section_2_text": "Arp는 APP만의 ar plasma를 특허 등록한 고유 브랜드입니다. 플라즈마의 사이즈, 전력, 제어 문제를 보완한 기술 에이피피의 Ar Plasma 장비 안전하게 누구라도 가능하게 사용할 수 있는 플라즈마 장비.",
-
         "Home_section_2_button": "제품 페이지 바로가기",
         "Home_section_3_title": "Solutions",
         "Home_section_3_text": "진공플라즈마의 속성(DNA)을 그대로 유지한 APP의 대기압플라즈마는 다음과 같은 강력한 솔루션을 제공합니다.",
@@ -42,8 +38,21 @@
         "Home_section_3_list_item_3_text": "나노가공 솔루션",
         "Home_section_3_list_item_4_text": "기능성 솔루션",
         "Home_section_4_title": "논문 자료",
-
-
+        "Home_section_4_text_1": "1. Escherichia coli deactivation study controlling the atmospheric pressure plasma discharge conditions",
+        "Home_section_4_text_2": "2. Polydimethylsiloxane Microlens Arrays Fabricated Through Liquid-Phase Photopolymerization and Molding",
+        "Home_section_4_text_3": "3. The Effect of Openair® Atmospheric Plasma on the Adhesion of UV Curable Coatings to Plastics",
+        "Home_section_4_text_4": "4. Improving the Electrical Properties of Zinc Tin Oxide Thin Film Transitors Using Atmospheric Plasma Treartment",
+        "Home_section_4_text_5": "5. Coplanar amorphous-indium gallium-zinc-oxide thin film transistor with He plasma treated heavily doped layer",
+        "See more": "더보기",
+        "Footer_title_1": "동탄 본사",
+        "Footer_title_2": "구미 지사",
+        "Footer_title_3": "Languages",
+        "Footer_email": "E. sales@applasma.com",
+        "Footer_phone1": "P. 031-373-5956",
+        "Footer_phone2": "P. 031-373-5957",
+        "Footer_address": "A. (우)18487 경기도 화성시 동탄산단 2길 7-12",
+        "Footer_phone3": "P. 054-463-9331 ",
+        "Footer_address2": "A. (우)39253 경북 구미시 구미대로 350-27 3층 309호",
         "end": "end"
     }
 }

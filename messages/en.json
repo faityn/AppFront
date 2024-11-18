@@ -9,7 +9,6 @@
         "Semiconductor": "Semiconductor",
         "Secondary Battery": "Secondary Battery",
         "Part-Materials": "Part/Materials",
-
         "APP Products": "APP Products",
         "Surface Treatment": "Surface Treatment",
         "Nano Coating": "Nano Coating",
@@ -26,11 +25,9 @@
         "Banner_2_text": "SURFACE TREATMENT PLASMA",
         "Banner_3_text": "PLASMA THAT IS EASY TO SET UP",
         "Banner_4_text": "WAFER SODER BALL REDUCTION",
-
         "Home_section_1_text_1": "A professional research business of atmospheric plasma",
         "Home_section_1_text_2": "APP Co., Ltd., a professional research business of\n atmospheric plasma, values people, and opens up an\n atmospheric plasma area as it pushes the limits of existing\n technology Our research staff has developed various kinds of\n creative atmospheric plasma for over 20 years.",
         "more_button_text": "더 알아보기",
-
         "Home_section_2_title": "Arp Series",
         "Home_section_2_text": "Arp is a unique brand that patented APP’s ar plasma. Plasma size, power, technology that complements control issues. APPS Ar Plasma equipment Safe and easy for anyone. Available plasma equipment",
         "Home_section_2_button": "제품 페이지 바로가기",
@@ -41,9 +38,21 @@
         "Home_section_3_list_item_3_text": "Nano processing solution",
         "Home_section_3_list_item_4_text": "Functional solution",
         "Home_section_4_title": "Paper data",
-
-
-
+        "Home_section_4_text_1": "1. Escherichia coli deactivation study controlling the atmospheric pressure plasma discharge conditions",
+        "Home_section_4_text_2": "2. Polydimethylsiloxane Microlens Arrays Fabricated Through Liquid-Phase Photopolymerization and Molding",
+        "Home_section_4_text_3": "3. The Effect of Openair® Atmospheric Plasma on the Adhesion of UV Curable Coatings to Plastics",
+        "Home_section_4_text_4": "4. Improving the Electrical Properties of Zinc Tin Oxide Thin Film Transitors Using Atmospheric Plasma Treartment",
+        "Home_section_4_text_5": "5. Coplanar amorphous-indium gallium-zinc-oxide thin film transistor with He plasma treated heavily doped layer",
+        "See more": "See more",
+        "Footer_title_1": "동탄 본사",
+        "Footer_title_2": "구미 지사",
+        "Footer_title_3": "Languages",
+        "Footer_email": "E. sales@applasma.com",
+        "Footer_phone1": "P. 031-373-5956",
+        "Footer_phone2": "P. 031-373-5957",
+        "Footer_address": "A. (우)18487 경기도 화성시 동탄산단 2길 7-12",
+        "Footer_phone3": "P. 054-463-9331 ",
+        "Footer_address2": "A. (우)39253 경북 구미시 구미대로 350-27 3층 309호",
         "end": "end"
     }
 }
