@@ -120,8 +120,11 @@ const Page = () => {
             <div className="grid grid-cols-12 gap-6">
               {HistoryTab2?.map((item, index) => {
                 return (
-                  <div key={index} className="col-span-2 ">
-                    <div className="">
+                  <div
+                    key={index}
+                    className="col-span-2 max-xl:col-span-3 max-lg:col-span-4 max-sm:col-span-6 border"
+                  >
+                    <div className=" w-full flex justify-center">
                       <Image
                         src={item?.image}
                         alt={``}
