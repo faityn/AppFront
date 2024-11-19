@@ -10,7 +10,6 @@ interface AccordionProps {
 const PageTabMenu = ({ sub }: AccordionProps) => {
   const router = useRouter();
   const { pathname } = router;
-  console.log(pathname);
 
   const [activeMenu, setActiveMenu] = useState("");
   const tabHover = (subId: string) => {
