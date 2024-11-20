@@ -27,11 +27,11 @@ export const Menu = () => {
       sub: [
         {
           name: t("Display"),
-          link: "#",
+          link: "/business",
         },
         {
           name: t("Semiconductor"),
-          link: "#",
+          link: "/business/semiconductor",
         },
         {
           name: t("Secondary Battery"),
@@ -654,6 +654,182 @@ export const AboutListItem = () => {
     {
       title: t("about_list_6_title"),
       text: t("about_list_6_text"),
+    },
+  ];
+  return data;
+};
+
+export const BusinessListItem = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      title: t("business_list_title1"),
+      image: "/svg/business/icon1.svg",
+    },
+    {
+      title: t("business_list_title2"),
+      image: "/svg/business/icon2.svg",
+    },
+    {
+      title: t("business_list_title3"),
+      image: "/svg/business/icon3.svg",
+    },
+    {
+      title: t("business_list_title4"),
+      image: "/svg/business/icon4.svg",
+    },
+    {
+      title: t("business_list_title5"),
+      image: "/svg/business/icon5.svg",
+    },
+    {
+      title: t("business_list_title6"),
+      image: "/svg/business/icon6.svg",
+    },
+    {
+      title: t("business_list_title7"),
+      image: "/svg/business/icon7.svg",
+    },
+    {
+      title: t("business_list_title8"),
+      image: "/svg/business/icon8.svg",
+    },
+    {
+      title: t("business_list_title9"),
+      image: "/svg/business/icon9.svg",
+    },
+  ];
+  return data;
+};
+
+export const BusinessPage2List1 = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      title: t("business_page_2_list_1_title_1"),
+      text: t("business_page_2_list_1_text_1"),
+      image: "/images/business/b1.png",
+    },
+    {
+      title: t("business_page_2_list_1_title_2"),
+      text: t("business_page_2_list_1_text_2"),
+      image: "/images/business/b2.png",
+    },
+    {
+      title: t("business_page_2_list_1_title_3"),
+      text: t("business_page_2_list_1_text_3"),
+      image: "/images/business/b3.png",
+    },
+  ];
+  return data;
+};
+
+export const BusinessPage2List2 = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      title: t("business_page_2_list_2_title_1"),
+      text: t("business_page_2_list_2_text_1"),
+      image: "/images/business/b4.png",
+    },
+    {
+      title: t("business_page_2_list_2_title_2"),
+      text: t("business_page_2_list_2_text_2"),
+      image: "/images/business/b5.png",
+    },
+    {
+      title: t("business_page_2_list_2_title_3"),
+      text: t("business_page_2_list_2_text_3"),
+      image: "/images/business/b6.png",
+    },
+  ];
+  return data;
+};
+
+export const BusinessPage4List1 = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      text: t("Business_page4_list_text_1"),
+    },
+    {
+      text: t("Business_page4_list_text_2"),
+    },
+    {
+      text: t("Business_page4_list_text_3"),
+    },
+    {
+      text: t("Business_page4_list_text_4"),
+    },
+    {
+      text: t("Business_page4_list_text_5"),
+    },
+    {
+      text: t("Business_page4_list_text_6"),
+    },
+    {
+      text: t("Business_page4_list_text_7"),
+    },
+    {
+      text: t("Business_page4_list_text_8"),
+    },
+    {
+      text: t("Business_page4_list_text_9"),
+    },
+    {
+      text: t("Business_page4_list_text_10"),
+    },
+    {
+      text: t("Business_page4_list_text_11"),
+    },
+    {
+      text: t("Business_page4_list_text_12"),
+    },
+    {
+      text: t("Business_page4_list_text_13"),
+    },
+    {
+      text: t("Business_page4_list_text_14"),
+    },
+    {
+      text: t("Business_page4_list_text_15"),
+    },
+    {
+      text: t("Business_page4_list_text_16"),
+    },
+    {
+      text: t("Business_page4_list_text_17"),
+    },
+    {
+      text: t("Business_page4_list_text_18"),
+    },
+  ];
+  return data;
+};
+
+export const BusinessPage4List2 = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      text: t("Business_page4_list_2_text_1"),
+    },
+    {
+      text: t("Business_page4_list_2_text_2"),
+    },
+    {
+      text: t("Business_page4_list_2_text_3"),
+    },
+    {
+      text: t("Business_page4_list_2_text_4"),
+    },
+    {
+      text: t("Business_page4_list_2_text_5"),
+    },
+    {
+      text: t("Business_page4_list_2_text_6"),
+    },
+    {
+      text: t("Business_page4_list_2_text_7"),
     },
   ];
   return data;

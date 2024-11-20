@@ -18,7 +18,7 @@ const PageTabMenu = ({ sub }: AccordionProps) => {
   return (
     <div className=" relative mt-[-30px]">
       <div
-        className="max-w-[983px] h-[60px] mx-auto flex gap-[50px] justify-center items-center bg-gradient-to-r from-[#276CF3] to-[#3042E4]"
+        className="max-w-[983px] h-[60px] mx-auto flex gap-[50px] max-sm:gap-[20px] justify-center items-center bg-gradient-to-r from-[#276CF3] to-[#3042E4] overflow-x-auto"
         onMouseLeave={() => setActiveMenu("")}
       >
         {sub?.map((item, index) => {
@@ -38,7 +38,9 @@ const PageTabMenu = ({ sub }: AccordionProps) => {
                       : "hidden "
                   }  h-2 w-2 bg-white rounded-full`}
                 ></div>
-                <span className="">{item?.title}</span>
+                <span className="max-md:text-sm max-sm:text-[12px]">
+                  {item?.title}
+                </span>
               </Link>
             </div>
           );
