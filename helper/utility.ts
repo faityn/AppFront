@@ -627,3 +627,34 @@ export const HistoryTab2List = () => {
   ];
   return data;
 };
+
+export const AboutListItem = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      title: t("about_list_1_title"),
+      text: t("about_list_1_text"),
+    },
+    {
+      title: t("about_list_2_title"),
+      text: t("about_list_2_text"),
+    },
+    {
+      title: t("about_list_3_title"),
+      text: t("about_list_3_text"),
+    },
+    {
+      title: t("about_list_4_title"),
+      text: t("about_list_4_text"),
+    },
+    {
+      title: t("about_list_5_title"),
+      text: t("about_list_5_text"),
+    },
+    {
+      title: t("about_list_6_title"),
+      text: t("about_list_6_text"),
+    },
+  ];
+  return data;
+};
