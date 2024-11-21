@@ -834,3 +834,19 @@ export const BusinessPage4List2 = () => {
   ];
   return data;
 };
+
+export const BusinessPage4List3 = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      text: t("Business_page4_list_3_text_1"),
+    },
+    {
+      text: t("Business_page4_list_3_text_2"),
+    },
+    {
+      text: t("Business_page4_list_3_text_3"),
+    },
+  ];
+  return data;
+};

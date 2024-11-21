@@ -1,7 +1,11 @@
 import PageBanner from "@/components/Banner/PageBanner";
 import PageTabMenu from "@/components/Includes/PageTabMenu";
 import Layout from "@/components/Layout";
-import { BusinessPage4List1, BusinessPage4List2 } from "@/helper/utility";
+import {
+  BusinessPage4List1,
+  BusinessPage4List2,
+  BusinessPage4List3,
+} from "@/helper/utility";
 import { GetStaticProps } from "next";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -25,6 +29,7 @@ const Page = () => {
   ];
   const itemList = BusinessPage4List1();
   const itemList2 = BusinessPage4List2();
+  const itemList3 = BusinessPage4List3();
   return (
     <Layout type="main">
       <PageBanner mainText={PageBannerText} />
@@ -34,9 +39,9 @@ const Page = () => {
           {t("Part-Materials")}
         </div>
 
-        <div className="mt-10 ">
+        <div className="mt-10 max-md:px-4">
           <div className="grid grid-cols-12 gap-5">
-            <div className="col-span-6">
+            <div className="col-span-6 max-md:col-span-12">
               <Image
                 src={"/images/business/part1.png"}
                 alt={``}
@@ -61,14 +66,14 @@ const Page = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-6">
+            <div className="col-span-6 max-md:col-span-12">
               <div className="">
                 <div className="text-2xl font-semibold text-black mb-[10px]">
                   {t("Bio Process")}
                 </div>
                 <div className="text-[#555555] text-[18px] ">
                   <div>Petridish treatment</div>
-                  <ul className="list-disc ml-5 ">
+                  <ul className="list-disc ml-5 font-light">
                     {itemList2?.map((item, index) => {
                       return <li key={index}>{item?.text}</li>;
                     })}
@@ -81,8 +86,8 @@ const Page = () => {
                   {t("Solar cell Process")}
                 </div>
                 <div className="text-[#555555] text-[18px] ">
-                  <ul className="list-disc ml-5 ">
-                    {itemList2?.map((item, index) => {
+                  <ul className="list-decimal ml-5 font-light leading-7">
+                    {itemList3?.map((item, index) => {
                       return <li key={index}>{item?.text}</li>;
                     })}
                   </ul>
