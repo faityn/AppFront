@@ -48,16 +48,20 @@ export const Menu = () => {
       link: "#",
       sub: [
         {
-          name: t("Surface Treatment"),
-          link: "#",
+          name: t("ARP Plasma"),
+          link: "/products",
         },
         {
-          name: t("Nano Coating"),
-          link: "#",
+          name: t("N2 Plasma"),
+          link: "/products/n2_plasma",
         },
         {
-          name: t("Nano Etching"),
-          link: "#",
+          name: t("Air Plasma"),
+          link: "/products/air_plasma",
+        },
+        {
+          name: t("Power Plasma"),
+          link: "/products/power_plasma",
         },
       ],
     },
@@ -67,23 +71,20 @@ export const Menu = () => {
       sub: [
         {
           name: t("Surface Treatment"),
-          link: "#",
+          link: "/technology",
         },
-        {
-          name: t("Nano Coating"),
-          link: "#",
-        },
-        {
-          name: t("Nano Etching"),
-          link: "#",
-        },
+
         {
           name: t("Reduction"),
-          link: "#",
+          link: "/technology/reduction",
         },
         {
-          name: t("Cleaning"),
-          link: "#",
+          name: t("Etching"),
+          link: "/technology/etching",
+        },
+        {
+          name: t("Deposition"),
+          link: "/technology/deposition",
         },
       ],
     },
@@ -830,6 +831,124 @@ export const BusinessPage4List2 = () => {
     },
     {
       text: t("Business_page4_list_2_text_7"),
+    },
+  ];
+  return data;
+};
+
+export const BusinessPage4List3 = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      text: t("Business_page4_list_3_text_1"),
+    },
+    {
+      text: t("Business_page4_list_3_text_2"),
+    },
+    {
+      text: t("Business_page4_list_3_text_3"),
+    },
+  ];
+  return data;
+};
+
+export const TechnologyPage1List1 = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      text: t("Technology_Page_1_List_1_Text_1"),
+    },
+    {
+      text: t("Technology_Page_1_List_1_Text_2"),
+    },
+    {
+      text: t("Technology_Page_1_List_1_Text_3"),
+    },
+    {
+      text: t("Technology_Page_1_List_1_Text_4"),
+    },
+    {
+      text: t("Technology_Page_1_List_1_Text_5"),
+    },
+    {
+      text: t("Technology_Page_1_List_1_Text_6"),
+    },
+    {
+      text: t("Technology_Page_1_List_1_Text_7"),
+    },
+    {
+      text: t("Technology_Page_1_List_1_Text_8"),
+    },
+  ];
+  return data;
+};
+
+export const TechnologyPage1List2 = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      text: t("Technology_Page_1_List_2_Text_1"),
+    },
+    {
+      text: t("Technology_Page_1_List_2_Text_2"),
+    },
+    {
+      text: t("Technology_Page_1_List_2_Text_3"),
+    },
+    {
+      text: t("Technology_Page_1_List_2_Text_4"),
+    },
+  ];
+  return data;
+};
+
+export const TechnologyPage1List3 = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      text: t("Technology_Page_1_List_3_Text_1"),
+    },
+    {
+      text: t("Technology_Page_1_List_3_Text_2"),
+    },
+    {
+      text: t("Technology_Page_1_List_3_Text_3"),
+    },
+    {
+      text: t("Technology_Page_1_List_3_Text_4"),
+    },
+    {
+      text: t("Technology_Page_1_List_3_Text_5"),
+    },
+    {
+      text: t("Technology_Page_1_List_3_Text_6"),
+    },
+  ];
+  return data;
+};
+
+export const TechnologyPage1List4 = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      text: t("Technology_Page_1_List_3_Text_1"),
+      image: "/images/tech/image1.png",
+    },
+    {
+      text: t("Technology_Page_1_List_3_Text_2"),
+      image: "/images/tech/image2.png",
+    },
+    {
+      text: t("Technology_Page_1_List_3_Text_3"),
+      image: "/images/tech/image3.png",
+    },
+    {
+      text: t("Technology_Page_1_List_3_Text_4"),
+      image: "/images/tech/image4.png",
+    },
+    {
+      text: t("Technology_Page_1_List_3_Text_5"),
+      image: "/images/tech/image5.png",
     },
   ];
   return data;
