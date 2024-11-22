@@ -4,12 +4,13 @@ import Image from "next/image";
 
 interface AccordionProps {
   mainText: string;
+  banner?: string;
 }
-const PageBanner: React.FC<AccordionProps> = ({ mainText }) => {
+const PageBanner: React.FC<AccordionProps> = ({ mainText, banner }) => {
   return (
     <div className="h-[400px] relative ">
       <Image
-        src={"/images/page_banner.png"}
+        src={banner ? `${banner}` : "/images/page_banner.png"}
         alt={``}
         className=" w-full h-[400px]  object-cover object-center "
         width="400"

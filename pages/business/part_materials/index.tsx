@@ -32,7 +32,10 @@ const Page = () => {
   const itemList3 = BusinessPage4List3();
   return (
     <Layout type="main">
-      <PageBanner mainText={PageBannerText} />
+      <PageBanner
+        mainText={PageBannerText}
+        banner="/images/business/banner.png"
+      />
       <PageTabMenu sub={SubMenu} />
       <div className="mx-auto max-w-[1224px] mt-[100px] mb-[150px] whitespace-pre-line break-keep">
         <div className="text-center text-2xl font-semibold text-primary ">
