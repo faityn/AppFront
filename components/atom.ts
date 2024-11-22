@@ -1,5 +1,5 @@
 import { atom } from "recoil";
-import { ProductsListType } from "./types";
+import { BoardListType, ProductsListType } from "./types";
 export const dropLangAtom = atom<boolean>({
   key: "dropLangAtom",
   default: false,
@@ -21,5 +21,10 @@ export const productsListAtom = atom<ProductsListType[]>({
 
 export const productsDetailAtom = atom<ProductsListType[]>({
   key: "productsDetailAtom",
+  default: [],
+});
+
+export const boardListAtom = atom<BoardListType[]>({
+  key: "boardListAtom",
   default: [],
 });

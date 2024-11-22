@@ -24,3 +24,16 @@ export type ProductsListType = {
   createdAt?: string;
   updatedAt?: string;
 };
+
+export type BoardListType = {
+  title?: string;
+  phone?: string;
+  id: number;
+  // master_id: number;
+  // email?: string;
+  // address?: string;
+  // link?: string;
+  // content?: string;
+  // createdAt?: string;
+  // updatedAt?: string;
+};
