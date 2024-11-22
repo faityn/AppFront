@@ -104,15 +104,15 @@ export const Menu = () => {
       sub: [
         {
           name: t("News"),
-          link: "#",
+          link: "/board",
         },
         {
           name: t("Branch Office"),
-          link: "#",
+          link: "/board/branch",
         },
         {
           name: t("Contact Us"),
-          link: "#",
+          link: "/board/contact",
         },
       ],
     },
