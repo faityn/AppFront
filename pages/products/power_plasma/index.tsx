@@ -70,7 +70,10 @@ const Page = () => {
 
   return (
     <Layout type="main">
-      <PageBanner mainText={PageBannerText} />
+      <PageBanner
+        mainText={PageBannerText}
+        banner="/images/products/banner.png"
+      />
       <PageTabMenu sub={SubMenu} />
       <div className="mx-auto max-w-[1224px] mt-[60px] mb-[150px] whitespace-pre-line break-keep">
         <div className="flex w-full justify-center items-center gap-3">

@@ -1,0 +1,17 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 627589">
+<g id="Group 627588">
+<g id="Rectangle 40761">
+<mask id="path-1-inside-1_4560_15537" fill="white">
+<path d="M20 13C20 10.7909 21.7909 9 24 9H31C33.2091 9 35 10.7909 35 13V17H20V13Z"/>
+</mask>
+<path d="M17 13C17 9.13401 20.134 6 24 6H31C34.866 6 38 9.13401 38 13H32C32 12.4477 31.5523 12 31 12H24C23.4477 12 23 12.4477 23 13H17ZM35 17H20H35ZM17 17V13C17 9.13401 20.134 6 24 6V12C23.4477 12 23 12.4477 23 13V17H17ZM31 6C34.866 6 38 9.13401 38 13V17H32V13C32 12.4477 31.5523 12 31 12V6Z" fill="#276CF3" mask="url(#path-1-inside-1_4560_15537)"/>
+</g>
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 17C9.79086 17 8 18.7909 8 21V42C8 44.2091 9.79086 46 12 46H13V17H12ZM18 17V46H24.7694C23.0217 43.4358 22 40.3372 22 37C22 28.4993 28.6293 21.5469 37 21.0307V17H18ZM47 23.7694C45.4971 22.745 43.8105 21.9701 42 21.5041V17H43C45.2091 17 47 18.7909 47 21V23.7694Z" fill="#276CF3"/>
+<g id="Group 627587">
+<circle id="Ellipse 10" cx="38" cy="37" r="13" fill="#276CF3"/>
+<path id="Vector 3" d="M38 28V37L43.5 41" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>

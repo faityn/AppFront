@@ -35,11 +35,11 @@ export const Menu = () => {
         },
         {
           name: t("Secondary Battery"),
-          link: "#",
+          link: "/business/secondary_battery",
         },
         {
           name: t("Part-Materials"),
-          link: "#",
+          link: "/business/part_materials",
         },
       ],
     },
@@ -94,7 +94,7 @@ export const Menu = () => {
       sub: [
         {
           name: t("Recruit"),
-          link: "#",
+          link: "/recruit",
         },
       ],
     },
@@ -949,6 +949,33 @@ export const TechnologyPage1List4 = () => {
     {
       text: t("Technology_Page_1_List_3_Text_5"),
       image: "/images/tech/image5.png",
+    },
+  ];
+  return data;
+};
+
+export const RecruitPage1List4 = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      title: t("Recruit_Page_List_1_Title_1"),
+      text: t("Recruit_Page_List_1_Text_1"),
+      image: "/svg/rec_icon1.svg",
+    },
+    {
+      title: t("Recruit_Page_List_1_Title_2"),
+      text: t("Recruit_Page_List_1_Text_2"),
+      image: "/svg/rec_icon2.svg",
+    },
+    {
+      title: t("Recruit_Page_List_1_Title_3"),
+      text: t("Recruit_Page_List_1_Text_3"),
+      image: "/svg/rec_icon3.svg",
+    },
+    {
+      title: t("Recruit_Page_List_1_Title_4"),
+      text: t("Recruit_Page_List_1_Text_4"),
+      image: "/svg/rec_icon4.svg",
     },
   ];
   return data;
