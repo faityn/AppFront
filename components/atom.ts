@@ -18,3 +18,8 @@ export const productsListAtom = atom<ProductsListType[]>({
   key: "productsListAtom",
   default: [],
 });
+
+export const productsDetailAtom = atom<ProductsListType[]>({
+  key: "productsDetailAtom",
+  default: [],
+});

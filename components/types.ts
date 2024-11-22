@@ -8,7 +8,7 @@ export type ProductsListType = {
   category?: number;
   content?: string;
   content_en?: string;
-
+  id: number;
   sub_category?: number;
   productFile?: [
     {
@@ -16,6 +16,7 @@ export type ProductsListType = {
       product_id?: number;
       file_ext?: string;
       file_loc?: string;
+      file_name?: string;
     }
   ];
   title?: string;
