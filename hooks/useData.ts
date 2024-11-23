@@ -53,7 +53,7 @@ export const getBoardList = async (id: number) => {
       }
     );
 
-    const data = await response.json();
+    const data = await response.text();
 
     return { status: response.ok, result: data };
   } catch (error) {
