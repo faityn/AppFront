@@ -980,3 +980,31 @@ export const RecruitPage1List4 = () => {
   ];
   return data;
 };
+
+
+export const BranchPageListItem = () => {
+  const t = useTranslations("MainPage");
+  const data = [
+    {
+      number: "01",
+      title: t("Branch_Page_List_Item_title"),
+      image: "/images/solution1.png",
+    },
+    {
+      number: "02",
+      text: t("Home_section_3_list_item_2_text"),
+      image: "/images/solution2.png",
+    },
+    {
+      number: "03",
+      text: t("Home_section_3_list_item_3_text"),
+      image: "/images/solution3.png",
+    },
+    {
+      number: "04",
+      text: t("Home_section_3_list_item_4_text"),
+      image: "/images/solution4.png",
+    },
+  ];
+  return data;
+};
