@@ -37,3 +37,14 @@ export type BoardListType = {
   // createdAt?: string;
   // updatedAt?: string;
 };
+
+
+export type ContactType = {
+  name?: string;
+  contact?: string;
+  email?: string;
+  company_name?: string;
+  department?: string;
+  subject?: string;
+  content?: string;
+};

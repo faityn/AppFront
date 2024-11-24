@@ -17,15 +17,13 @@ const Page = () => {
         {
             subId: "63",
             title: t("Contact Us"),
-            link: "/board/contact",
+            link: "/contact",
         },
     ];
 
     const getData = async () => {
         // const response = await getBoardList(4);
-
         // console.log(response);
-
         // if (response?.result?.success) {
         //   setItemsList(response?.result?.responseObject);
         // }
