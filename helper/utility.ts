@@ -13,7 +13,7 @@ export const Menu = () => {
         },
         {
           name: t("Company History"),
-          link: "/about/greetings",
+          link: "/about/history",
         },
         {
           name: t("Our Company"),
