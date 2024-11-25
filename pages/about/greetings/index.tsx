@@ -4,8 +4,11 @@ import Layout from "@/components/Layout";
 import { GetStaticProps } from "next";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const Page = () => {
+  const router = useRouter();
+  const { locale } = router;
   const t = useTranslations("MainPage");
   const PageBannerText = t("Page_Banner_Text");
   const SubMenu = [
@@ -46,18 +49,30 @@ const Page = () => {
               </div>
 
               <div className="flex gap-7 items-center mt-[35px]">
-                <div className="text-md text-[#353644]">(주)APP CEO</div>
+                <div className="text-md text-[#353644]">{t("APP CEO")}</div>
 
-                <div className="">
-                  <Image
-                    src={"/svg/sign_en.svg"}
-                    alt={``}
-                    className=" w-[83px] h-[58px]  "
-                    width="83"
-                    height="58"
-                    unoptimized={true}
-                    priority={true}
-                  />
+                <div className="text-black">
+                  {locale === "kr" ? (
+                    <Image
+                      src={"/svg/sign_kr.svg"}
+                      alt={``}
+                      className=" w-[83px] h-[58px]  "
+                      width="83"
+                      height="58"
+                      unoptimized={true}
+                      priority={true}
+                    />
+                  ) : (
+                    <Image
+                      src={"/svg/sign_en.svg"}
+                      alt={``}
+                      className=" w-[83px] h-[58px]  "
+                      width="83"
+                      height="58"
+                      unoptimized={true}
+                      priority={true}
+                    />
+                  )}
                 </div>
               </div>
             </div>
