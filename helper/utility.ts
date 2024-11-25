@@ -9,15 +9,15 @@ export const Menu = () => {
       sub: [
         {
           name: t("Ceo Greeting"),
-          link: "#",
+          link: "/about/greetings",
         },
         {
           name: t("Company History"),
-          link: "#",
+          link: "/about/greetings",
         },
         {
           name: t("Our Company"),
-          link: "#",
+          link: "/about",
         },
       ],
     },
@@ -980,7 +980,6 @@ export const RecruitPage1List4 = () => {
   ];
   return data;
 };
-
 
 export const BranchPageListItem = () => {
   const t = useTranslations("MainPage");
