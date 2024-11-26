@@ -144,7 +144,7 @@ const Page = () => {
 
                     <div className="mt-[60px] max-md:px-4">
                         <div className="text-[#353644] text-xl font-bold text-center mb-[30px]">
-                            유기물 제거
+                            {t("Removal")}
                         </div>
 
                         <div className=" grid grid-cols-12 gap-5 ">

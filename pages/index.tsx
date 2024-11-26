@@ -33,7 +33,7 @@ export default function Home() {
                                 {t("Home_section_1_text_2")}
                                 <div>
                                     <Link
-                                        href="#"
+                                        href="/about"
                                         className="mt-5 border border-black rounded-3xl w-[122px] h-[43px] text-sm text-black font-medium flex items-center justify-center"
                                     >
                                         {t("more_button_text")}
