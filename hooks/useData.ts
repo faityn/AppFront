@@ -54,7 +54,6 @@ export const getBoardList = async (id: number) => {
         redirect: "follow",
       }
     );
-console.log(response);
 
     const data = await response.json();
 
