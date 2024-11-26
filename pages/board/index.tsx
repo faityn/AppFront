@@ -53,12 +53,11 @@ const Page = () => {
 
                     <Accordion
                         title="What types of atmospheric pressure plasma are there?"
-                        content="Atmospheric pressure plasma literally means plasma in an atmospheric pressure atmosphere. Atmospheric pressure plasma is a gas in which electrons are separated from atoms or molecules in a gas under atmospheric pressure, causing electricity to flow and emit light.
-How is atmospheric pressure plasma generated?"
+                        content="Atmospheric pressure plasma can be broadly divided into low-temperature plasma and thermal equilibrium plasma. Low-temperature plasma is a low-temperature plasma in which the plasma gas temperature and electron temperature are significantly different, and thermal plasma is a plasma in which the electron temperature and gas temperature are similar. Industrially, thermal plasma can be obtained at temperatures ranging from thousands to tens of thousands of degrees."
                     />
                     <Accordion
                         title="How is atmospheric pressure plasma generated?"
-                        content="Plasma is generated electrically, and different types of atmospheric pressure plasma can be generated accordingly. Basic RF or AC discharge. Since the cathode and anode are alternately switched, the electrons also move back and forth accordingly."
+                        content="How is atmospheric pressure plasma generated? Plasma is generated electrically, and different types of atmospheric pressure plasma can be generated accordingly. Basic RF or AC discharge. Since the cathode and anode are alternately changed, the electrons also move back and forth accordingly."
                     />
                     <Accordion
                         title="What is dielectric barrier discharge (DBD)?"
