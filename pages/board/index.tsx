@@ -53,11 +53,12 @@ const Page = () => {
 
                     <Accordion
                         title="What types of atmospheric pressure plasma are there?"
-                        content="대기압플라즈마는 크게 저온플라즈마, 열평형플라즈마로 나뉠수 있다. 저온플라즈마는 플라즈마gas온도와 전자온도가 크게 차이가 나는 저온플라즈마이며 열플라즈마는 전자온도와 gas온도가 비슷한 상태의 플라즈마이다. 산업적으로 열플라즈마는 수천~수만도까지 얻을수 있다."
+                        content="Atmospheric pressure plasma literally means plasma in an atmospheric pressure atmosphere. Atmospheric pressure plasma is a gas in which electrons are separated from atoms or molecules in a gas under atmospheric pressure, causing electricity to flow and emit light.
+How is atmospheric pressure plasma generated?"
                     />
                     <Accordion
                         title="How is atmospheric pressure plasma generated?"
-                        content="대기압플라즈마는 어떻게 발생시키는가? 플라즈마는 전기적으로 발생시키며 이에 따라 다른 종류의 대기압플라즈마를 발생시킬수 있다. 기본적인 RF 혹은 교류방전. 음극과 양극이 번갈아가며 바뀌기 때문에 전자도 그에 따라 왕복운동을 하게 된다."
+                        content="Plasma is generated electrically, and different types of atmospheric pressure plasma can be generated accordingly. Basic RF or AC discharge. Since the cathode and anode are alternately switched, the electrons also move back and forth accordingly."
                     />
                     <Accordion
                         title="What is dielectric barrier discharge (DBD)?"
