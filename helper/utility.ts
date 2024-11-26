@@ -112,7 +112,7 @@ export const Menu = () => {
         },
         {
           name: t("Contact Us"),
-          link: "/board/contact",
+          link: "/contact",
         },
       ],
     },

@@ -133,7 +133,7 @@ const Page = () => {
                     <div className="max-w-[319px] mx-auto text-xl text-[#353644] text-left ">
                         Wafer : 6inch <br />
                         PR thickness : 1um <br />
-                        PR 종류 : Positive (Model: GSR-601)
+                        {t("PR Type")} : Positive (Model: GSR-601)
                         <br />
                     </div>
 

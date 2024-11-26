@@ -215,9 +215,10 @@
         "Solar cell Process": "솔라셀 공정",
         "Business_page4_list_3_text_1": "Pre-treatment for activation, cleaning, coating(AF, AG, AR) and improve adhesion",
         "Business_page4_list_3_text_2": "APP Plasma improve adhesion of film/foil/sheet, Film/Film, Film/Glass, Film/\n -Metal, Glass/Metal, Organic/Metal, Organic/film",
-        "Business_page4_list_3_text_3": "APP technology is highly effective at treating for solarcell manufacture process\n -Treatment material : MO, AL, Cu, Stainless steel, Glass, Film (PVCm EVA, PET, Pl, PEN, ITO)\n -EVA top - Glass (film)\n -Glass - CIGS (CdTe)\n -Aluminum foil\n -Silicon wafer(roll form)\n -Polyimide film\n -APP Surface Treatment Purpose\n -Improve adhesion with Glass (PVC)\n -mprove adhesion of Cdte / CiGS to glass\n -Clean foil for lamination\n -Improve wettability for PV\n -Improve surface wettability for metal adhesion\n -PCB Process\n -Fabric Process\n -Film Process\n -Dispensing Process\n -Wafer Process\n -PCB 공정Fabric Process  ",
+        "Business_page4_list_3_text_3": "APP technology is highly effective at treating for solarcell manufacture process\n -Treatment material : MO, AL, Cu, Stainless steel, Glass, Film (PVCm EVA, PET, Pl, PEN, ITO)\n -EVA top - Glass (film)\n -Glass - CIGS (CdTe)\n -Aluminum foil\n -Silicon wafer(roll form)\n -Polyimide film\n -APP Surface Treatment Purpose\n -Improve adhesion with Glass (PVC)\n -mprove adhesion of Cdte / CiGS to glass\n -Clean foil for lamination\n -Improve wettability for PV\n -Improve surface wettability for metal adhesion\n -PCB Process\n -Fabric Process\n -Film Process\n -Dispensing Process\n -Wafer Process\n -PCB 공정\n Fabric Process  ",
         "Etching": "Etching",
         "Deposition": "Deposition",
+        "PR Type": "PR 종류",
         "Technology_Page_1_List_1_Text_1": "제품 표면의 유기오염원을 제거",
         "Technology_Page_1_List_1_Text_2": "세정(탈지, 산세) 효과",
         "Technology_Page_1_List_1_Text_3": "세정 후 표면 활성화",
@@ -296,6 +297,7 @@
         "contact_placeholder_5": "소속 부서/직위",
         "contact_placeholder_6": "제목",
         "contact_placeholder_7": "문의내용",
+        "Apply": "지원하기",
 
         "end": "end"
     }

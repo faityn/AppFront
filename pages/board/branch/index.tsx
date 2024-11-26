@@ -62,16 +62,18 @@ const Page = () => {
                 <div
                     className={`${activeTab === "tab1" ? "" : "hidden"} mt-20`}
                 >
-                    <Image
-                        src={`/images/board/dep.png`}
-                        alt={``}
-                        className=" w-full min-h-[360px] max-h-[360px] max-sm:max-h-[304px] object-cover"
-                        width="392"
-                        height="200"
-                        unoptimized={true}
-                        priority={true}
-                    />
-
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.5928428731136!2d127.08595430000001!3d37.1623798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b465ed9f0d3df%3A0xf18c69775f630f99!2s7-12%20Dongtansandan%202-gil%2C%20Hwaseong-si%2C%20Gyeonggi-do%2C%20South%20Korea!5e0!3m2!1sen!2smn!4v1732598636924!5m2!1sen!2smn"
+                            width="600"
+                            height="450"
+                            className="w-full"
+                            allowFullScreen
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                    
                     <div className="flex justify-between max-sm:flex-col gap-4 mt-8">
                         <div className="">
                             <div className="flex items-center gap-2">

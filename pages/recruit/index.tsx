@@ -116,7 +116,7 @@ const Page = () => {
 
                         <div className="mt-20 max-md:hidden">
                             <div className="text-primary text-2xl font-medium text-center">
-                                지원하기
+                                {t("Apply")}
                             </div>
                             <div className="mt-10 relative">
                                 <Image
