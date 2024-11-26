@@ -30,14 +30,12 @@ const Page = () => {
             link: "/contact",
         },
     ];
-  
+
     const {
         register,
         handleSubmit,
         formState: { errors },
     } = useForm<FormData>();
-
-  
 
     const onSubmit: SubmitHandler<FormData> = async (data) => {
         //setLoading(true);
@@ -53,10 +51,8 @@ const Page = () => {
         };
         const res = await sendContact(postData);
 
-
-
         if (res?.status) {
-            alert('Send message succefull')
+            alert("Send message succefull");
             //setIsOpen(true);
             //setLoading(false);
         } else {
@@ -86,7 +82,7 @@ const Page = () => {
                                     {...register("name", {
                                         required: true,
                                     })}
-                                    placeholder="성함"
+                                    placeholder={t("contact_placeholder_1")}
                                     className="w-full rounded text-md  bg-[#EBEFF8] px-4 py-3 text-[#353644] outline-none transition focus:border-[#759BF1] active:border-[#759BF1] disabled:cursor-default disabled:bg-whiter "
                                 />
                                 {errors.name && (
@@ -101,7 +97,7 @@ const Page = () => {
                                     {...register("contact", {
                                         required: true,
                                     })}
-                                    placeholder="연락처"
+                                    placeholder={t("contact_placeholder_2")}
                                     className="w-full rounded text-md bg-[#EBEFF8] px-4 py-3 text-[#353644] outline-none transition focus:border-[#759BF1] active:border-[#759BF1] disabled:cursor-default disabled:bg-whiter "
                                 />
                                 {errors.contact && (
@@ -119,7 +115,7 @@ const Page = () => {
                                     {...register("email", {
                                         required: true,
                                     })}
-                                    placeholder="이메일"
+                                    placeholder={t("contact_placeholder_3")}
                                     className="w-full rounded text-md  bg-[#EBEFF8] px-4 py-3 text-[#353644] outline-none transition focus:border-[#759BF1] active:border-[#759BF1] disabled:cursor-default disabled:bg-whiter "
                                 />
                                 {errors.email && (
@@ -134,7 +130,7 @@ const Page = () => {
                                     {...register("company_name", {
                                         required: true,
                                     })}
-                                    placeholder="회사명"
+                                    placeholder={t("contact_placeholder_4")}
                                     className="w-full rounded text-md bg-[#EBEFF8] px-4 py-3 text-[#353644] outline-none transition focus:border-[#759BF1] active:border-[#759BF1] disabled:cursor-default disabled:bg-whiter "
                                 />
                                 {errors.company_name && (
@@ -152,7 +148,7 @@ const Page = () => {
                                     {...register("department", {
                                         required: true,
                                     })}
-                                    placeholder="소속 부서/직위"
+                                    placeholder={t("contact_placeholder_5")}
                                     className="w-full rounded text-md  bg-[#EBEFF8] px-4 py-3 text-[#353644] outline-none transition focus:border-[#759BF1] active:border-[#759BF1] disabled:cursor-default disabled:bg-whiter "
                                 />
                                 {errors.department && (
@@ -170,7 +166,7 @@ const Page = () => {
                                     {...register("subject", {
                                         required: true,
                                     })}
-                                    placeholder="제목"
+                                    placeholder={t("contact_placeholder_6")}
                                     className="w-full rounded text-md  bg-[#EBEFF8] px-4 py-3 text-[#353644] outline-none transition focus:border-[#759BF1] active:border-[#759BF1] disabled:cursor-default disabled:bg-whiter "
                                 />
                                 {errors.subject && (
@@ -186,7 +182,7 @@ const Page = () => {
                                     {...register("content", {
                                         required: true,
                                     })}
-                                    placeholder="문의내용"
+                                    placeholder={t("contact_placeholder_7")}
                                     className="w-full rounded text-md h-[244px] bg-[#EBEFF8] px-4 py-3 text-[#353644] outline-none transition focus:border-[#759BF1] active:border-[#759BF1] disabled:cursor-default disabled:bg-whiter "
                                 ></textarea>
                                 {errors.subject && (
@@ -207,7 +203,6 @@ const Page = () => {
                         </div>
                     </form>
                 </div>
-
             </div>
         </Layout>
     );
