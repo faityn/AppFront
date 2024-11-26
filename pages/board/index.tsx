@@ -3,6 +3,7 @@ import PageTabMenu from "@/components/Includes/PageTabMenu";
 import Layout from "@/components/Layout";
 import Accordion from "@/helper/Accordion";
 import AccordionWhite from "@/helper/AccordionWhite";
+import { getBoardList } from "@/hooks/useData";
 
 import { GetStaticProps } from "next";
 import { useTranslations } from "next-intl";
@@ -22,8 +23,8 @@ const Page = () => {
     ];
 
     const getData = async () => {
-        // const response = await getBoardList(4);
-        // console.log(response);
+        const response = await getBoardList(4);
+        console.log(response);
         // if (response?.result?.success) {
         //   setItemsList(response?.result?.responseObject);
         // }
@@ -69,7 +70,7 @@ const Page = () => {
                 </div>
 
                 <div className="text-center text-2xl font-semibold text-primary mt-20">
-                    논문 자료
+                    {t("Paper data")}
                 </div>
 
                 <div className="mx-auto w-full mt-24 flex flex-col gap-3">

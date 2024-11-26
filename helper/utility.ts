@@ -931,23 +931,23 @@ export const TechnologyPage1List4 = () => {
   const t = useTranslations("MainPage");
   const data = [
     {
-      text: t("Technology_Page_1_List_3_Text_1"),
+      text: t("Technology_Page_1_List_4_Text_1"),
       image: "/images/tech/image1.png",
     },
     {
-      text: t("Technology_Page_1_List_3_Text_2"),
+      text: t("Technology_Page_1_List_4_Text_2"),
       image: "/images/tech/image2.png",
     },
     {
-      text: t("Technology_Page_1_List_3_Text_3"),
+      text: t("Technology_Page_1_List_4_Text_3"),
       image: "/images/tech/image3.png",
     },
     {
-      text: t("Technology_Page_1_List_3_Text_4"),
+      text: t("Technology_Page_1_List_4_Text_4"),
       image: "/images/tech/image4.png",
     },
     {
-      text: t("Technology_Page_1_List_3_Text_5"),
+      text: t("Technology_Page_1_List_4_Text_5"),
       image: "/images/tech/image5.png",
     },
   ];

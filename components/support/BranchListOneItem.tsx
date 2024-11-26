@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 interface AccordionProps {
     title: string;
     image?: string;
@@ -18,8 +19,10 @@ const BranchListOneItem: React.FC<AccordionProps> = ({
     phone,
     email,
     email2,
-    address
+    address,
+    link,
 }) => {
+    const t = useTranslations("MainPage");
     return (
         <div className="bg-[#EBEFF8] rounded-[20px] py-8 px-4 h-full relative ">
             <div className="text-center text-[#3B77EA] font-semibold">
@@ -28,7 +31,6 @@ const BranchListOneItem: React.FC<AccordionProps> = ({
 
             <div className="min-w-[200px]  mx-auto h-full flex flex-col justify-between items-center gap-3 font-light mt-5 relative">
                 <div className="h-auto w-full">
-                    
                     <Image
                         src={`${image}`}
                         alt={``}
@@ -130,10 +132,11 @@ const BranchListOneItem: React.FC<AccordionProps> = ({
 
                 <div className="flex justify-center text-center w-full h-16  mb-5">
                     <Link
-                        href="#"
+                        href={`${link}`}
+                        target="_blank"
                         className="flex items-center justify-center gap-2 w-[124px] h-[44px] bg-[#3B77EA] rounded-[10px]"
                     >
-                        지도 보기 <FaArrowRight />{" "}
+                        {t("branch_link_text")} <FaArrowRight />{" "}
                     </Link>
                 </div>
             </div>

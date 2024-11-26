@@ -5,7 +5,7 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import { GetStaticProps } from "next";
 import { useTranslations } from "next-intl";
-import {  useState } from "react";
+import { useState } from "react";
 import BranchListOneItem from "@/components/support/BranchListOneItem";
 
 const Page = () => {
@@ -25,7 +25,7 @@ const Page = () => {
     const changeTab = (tab: string) => {
         setActiveTab(tab);
     };
-   
+
     return (
         <Layout type="main">
             <PageBanner
@@ -44,7 +44,7 @@ const Page = () => {
                                 : "text-[#6C7B9F] "
                         }`}
                     >
-                        오시는 길
+                        {t("branch_tab_1_text")}
                     </button>
                     <button
                         type="button"
@@ -55,7 +55,7 @@ const Page = () => {
                                 : "text-[#6C7B9F] "
                         }`}
                     >
-                        지사 소개
+                        {t("branch_tab_2_text")}
                     </button>
                 </div>
 
@@ -89,7 +89,7 @@ const Page = () => {
                                 </div>
 
                                 <div className="text-[#353644] text-[18px]">
-                                    경기도 화성시 동탄산단 2길 7-12
+                                    {t("branch_address_text_1")}
                                 </div>
                             </div>
 
@@ -114,7 +114,7 @@ const Page = () => {
                                 </div>
 
                                 <div className="text-[#353644] text-[18px]">
-                                    031-373-5956, 031-373-5957
+                                    {t("branch_address_text_2")}
                                 </div>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ const Page = () => {
                                 </div>
 
                                 <div className="text-[#353644] text-[18px]">
-                                    동탄역 하차
+                                    {t("branch_address_text_3")}
                                 </div>
                             </div>
 
@@ -163,7 +163,7 @@ const Page = () => {
                                 </div>
 
                                 <div className="text-[#353644] text-[18px]">
-                                    장지천 정류장 하차
+                                    {t("branch_address_text_4")}
                                 </div>
                             </div>
                         </div>
@@ -173,56 +173,59 @@ const Page = () => {
                     className={`${activeTab === "tab2" ? "" : "hidden"} mt-16`}
                 >
                     <div className="max-w-[600px] mx-auto text-center text-xl text-[#353644] ">
-                        에이피피는 새로운 성장동력을 창출하기 위하여 미국,
-                        베트남, 일본 등 해외 시장으로 사업영역을 넓히고
-                        있습니다.
+                        {t("branch_tab_2_text_2")}
                     </div>
 
                     <div className="grid grid-cols-12 gap-5 mt-[60px] ">
                         <div className="col-span-4 max-xl:col-span-6 max-sm:col-span-12">
                             <BranchListOneItem
-                                title="베트남 사무소"
+                                title={t("branch_1_title")}
                                 image="/images/board/dep1.png"
                                 phone="+84-093-5205-921"
                                 email="calebyoo@applasma.com"
                                 address="#550000, UNETI, 218 Linh Nam Street,Hoang Mai District, Hanoi, Vietnam (1103 Room)"
+                                link="https://maps.app.goo.gl/Rr8UMSDJ2JKH1Mhq6"
                             />
                         </div>
                         <div className="col-span-4 max-xl:col-span-6 max-sm:col-span-12">
                             <BranchListOneItem
-                                title="일본 사무소"
+                                title={t("branch_2_title")}
                                 image="/images/board/dep2.png"
                                 phone="+81-80-1316-5693"
                                 email="hwlee@applasma.com"
                                 address="#218 Minamisawa 5-19-24, Higashikurume Tokyo 203-0023 Japan"
+                                link="https://maps.app.goo.gl/7HT1VvkVk3Q3gX637"
                             />
                         </div>
                         <div className="col-span-4 max-xl:col-span-6 max-sm:col-span-12">
                             <BranchListOneItem
-                                title="중국 사무소"
+                                title={t("branch_3_title")}
                                 image="/images/board/dep3.png"
                                 phone="+86-183-7316-8665"
                                 email="jason@applasma.com"
                                 email2="howard@applasma.com"
                                 address="Room 1110, part2, No.7 Building, Shangdu Huayuancheng,No.2 Nanshan Road, Xingsha County, Changsha City,Hunan Province, China"
+                                link="https://maps.app.goo.gl/mJj7Tzcy3C8mxWCE6"
                             />
                         </div>
                         <div className="col-span-4 max-xl:col-span-6 max-sm:col-span-12">
                             <BranchListOneItem
-                                title="미국 사무소"
+                                title={t("branch_4_title")}
                                 image="/images/board/dep4.png"
                                 phone="+1-408-232-5431"
                                 email="kevin@applasma.com"
                                 address="#315,3003 N,FirstStreet,San Jose, CA 95134"
+                                link="https://maps.app.goo.gl/Fmd1dyB5TytQeg3B6"
                             />
                         </div>
                         <div className="col-span-4 max-xl:col-span-6 max-sm:col-span-12">
                             <BranchListOneItem
-                                title="인도 사무소"
+                                title={t("branch_5_title")}
                                 image="/images/board/dep5.png"
                                 phone="+91-92-2121-3131"
                                 email="david@applasma.com"
                                 address="1st Floor, Plot no13, Cama Industrial Estate, Goregaon East, Mumbai, Maharashtra 400063, INDIA"
+                                link="https://maps.app.goo.gl/3oJ2K5ubt3qCnZQG9"
                             />
                         </div>
                     </div>

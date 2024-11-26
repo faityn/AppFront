@@ -231,6 +231,8 @@
         "Technology_Page_1_List_2_Text_2": "처리장비 : N2, Ar",
         "Technology_Page_1_List_2_Text_3": "처리속도 : 30mm/sec",
         "Technology_Page_1_List_2_Text_4": "처리횟수 : 편도 1회",
+        "Technology_Page_image_title_1": "N2 정전기 측정",
+        "Technology_Page_image_title_2": "Ar 정전기 측정",
         "Technology_Page_1_List_3_Text_1": "빠른 공정 속도 및 안정성",
         "Technology_Page_1_List_3_Text_2": "코로나 효과가 없는 전처리",
         "Technology_Page_1_List_3_Text_3": "고전압과의 재로 접촉 없음",
@@ -251,6 +253,50 @@
         "Recruit_Page_List_1_Text_3": "풍부한 간식 및 원두커피 항시 제공, 한식, 중식 선택적 식사 제공, 나무와 화초로 가득한 쾌적한 근무환경 제공",
         "Recruit_Page_List_1_Text_4": "사내/외부 교육 지원, 외국어 자기 개발비 50% 지원, 필요도서 구입, 사내도서관 운영",
         "APP CEO": "(주)에이피피 대표이사 ",
+        "Activation effect": "활성화 효과",
+        "Moisture removal": "수분 제거",
+        "Surface treatment": "표면처리",
+        "Surface tension increased by plasma treatment": "플라즈마의 처리로 표면 장력 Up",
+        "Uniform surface activation even on large surfaces": "넓은 표면에서도 균일한 표면 활성화 기능",
+        "Laminating, Bonding Strength Improvement": "Laminating, Bonding 강도 향상",
+        "Improvement of post-processing characteristics such as Coating / Printing / Plating": "Coating / Printing / Plating 등 후처리 특성 향상",
+        "AFM": "cf) AFM 해상도 : 0.1nm",
+
+        "Reduction_page_text_1": "플라즈마 금속 공정은 환원 가스에 의한 플라즈마를 사용하여 산화물이나 할로겐 화합물에서 금속을 제련하는 반응이다.\n 응용시 고온을 필요로 하는 반응 또는 용융이 가능하다.",
+        "Reduction_page_title_2": "AgO Reduction",
+
+        "Etching_page_text_1": "에칭은 필요한 부분만 남기고 불필요한 부분은 깍아내는 공정 “으로 그 중 건식 식각인 플라즈마 공정은 플라즈마로 식각하고자 하는 막질을 화학적,\n 물리적 반응으로 막질을 식각하는 방법.",
+
+        "Etching_page_text_5": "포토리소그래피(Photolithography)이후 필요 없는 PR을 벗겨낼 때",
+        "Etching_page_text_6": "PR 종류 : Positive (Model: GSR-601)",
+
+        "deposition_page_text": "웨이퍼 표면에 얇은 막을 씌워 전기적 특성을 갖도록 만드는 공정.\n\n 증착 공정은 웨이퍼 표면에 원하는 물질을 박막의 두께로 입혀 전기적인 특성을 갖게 하는 과정이다.\n\n 이 과정에서 분자 또는 원자 단위의 물질을 웨이퍼에 여러 겹으로 쌓게 되는데, 박막을 얼마나 얇고 균일하게 입혔느냐에 따라 반도체의 품질이 좌우되기 때문에 매우 중요한 공정 중 하나이다. 또한 박막의 두께가 워낙 얇기 때문에 정교하고 세밀한 기술이 필요하다.\n\n 증착은 크게 물리적 기상증착방법(PVD, Physical Vapor Deposition)과 화학적 기상증착방법(CVD, Chemical Vapor Deposition)으로 나뉜다. 물리적 기상증착방법(PVD)은 금속 박막의 증착에 주로 사용되며 화학반응이 수반되지는 않는다.\n\n 이와 달리 화학적 기상증착방법(CVD)은 가스의 화학 반응으로 형성된 입자들을 외부 에너지가 부여된 수증기 형태로 쏘아 증착 시키는 방법으로 도체, 부도체, 반도체의 박막 증착에 모두 사용될 수 있다.",
+        "Go to Job Korea": "잡코리아 바로가기",
+        "Go to Saramin": "사람인 바로가기",
+        "Paper data": "논문 자료",
+        "branch_address_text_1": "경기도 화성시 동탄산단 2길 7-12 ",
+        "branch_address_text_2": "031-373-5956, 031-373-5957",
+        "branch_address_text_3": "동탄역 하차",
+        "branch_address_text_4": "장지천 정류장 하차",
+
+        "branch_tab_1_text": "오시는 길",
+        "branch_tab_2_text": "지사 소개",
+        "branch_tab_2_text_2": "에이피피는 새로운 성장동력을 창출하기 위하여 미국, 베트남, 일본 등 해외 시장으로 사업영역을 넓히고 있습니다.",
+
+        "branch_1_title": "베트남 사무소",
+        "branch_2_title": "일본 사무소",
+        "branch_3_title": "중국 사무소",
+        "branch_4_title": "미국 사무소",
+        "branch_5_title": "인도 사무소",
+        "branch_link_text": "지도 보기",
+        "contact_placeholder_1": "성함",
+        "contact_placeholder_2": "연락처",
+        "contact_placeholder_3": "이메일",
+        "contact_placeholder_4": "회사명",
+        "contact_placeholder_5": "소속 부서/직위",
+        "contact_placeholder_6": "제목",
+        "contact_placeholder_7": "문의내용",
+
         "end": "end"
     }
 }
