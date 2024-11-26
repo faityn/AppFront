@@ -134,7 +134,7 @@ const BranchListOneItem: React.FC<AccordionProps> = ({
                     <Link
                         href={`${link}`}
                         target="_blank"
-                        className="flex items-center justify-center gap-2 w-[124px] h-[44px] bg-[#3B77EA] rounded-[10px]"
+                        className="flex items-center justify-center gap-2 w-[150px] h-[44px] bg-[#3B77EA] rounded-[10px]"
                     >
                         {t("branch_link_text")} <FaArrowRight />{" "}
                     </Link>
