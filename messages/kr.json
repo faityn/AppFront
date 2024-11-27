@@ -262,15 +262,11 @@
         "Laminating, Bonding Strength Improvement": "Laminating, Bonding 강도 향상",
         "Improvement of post-processing characteristics such as Coating / Printing / Plating": "Coating / Printing / Plating 등 후처리 특성 향상",
         "AFM": "cf) AFM 해상도 : 0.1nm",
-
         "Reduction_page_text_1": "플라즈마 금속 공정은 환원 가스에 의한 플라즈마를 사용하여 산화물이나 할로겐 화합물에서 금속을 제련하는 반응이다.\n 응용시 고온을 필요로 하는 반응 또는 용융이 가능하다.",
         "Reduction_page_title_2": "AgO Reduction",
-
         "Etching_page_text_1": "에칭은 필요한 부분만 남기고 불필요한 부분은 깍아내는 공정 “으로 그 중 건식 식각인 플라즈마 공정은 플라즈마로 식각하고자 하는 막질을 화학적,\n 물리적 반응으로 막질을 식각하는 방법.",
-
         "Etching_page_text_5": "포토리소그래피(Photolithography)이후 필요 없는 PR을 벗겨낼 때",
         "Etching_page_text_6": "PR 종류 : Positive (Model: GSR-601)",
-
         "deposition_page_text": "웨이퍼 표면에 얇은 막을 씌워 전기적 특성을 갖도록 만드는 공정.\n\n 증착 공정은 웨이퍼 표면에 원하는 물질을 박막의 두께로 입혀 전기적인 특성을 갖게 하는 과정이다.\n\n 이 과정에서 분자 또는 원자 단위의 물질을 웨이퍼에 여러 겹으로 쌓게 되는데, 박막을 얼마나 얇고 균일하게 입혔느냐에 따라 반도체의 품질이 좌우되기 때문에 매우 중요한 공정 중 하나이다. 또한 박막의 두께가 워낙 얇기 때문에 정교하고 세밀한 기술이 필요하다.\n\n 증착은 크게 물리적 기상증착방법(PVD, Physical Vapor Deposition)과 화학적 기상증착방법(CVD, Chemical Vapor Deposition)으로 나뉜다. 물리적 기상증착방법(PVD)은 금속 박막의 증착에 주로 사용되며 화학반응이 수반되지는 않는다.\n\n 이와 달리 화학적 기상증착방법(CVD)은 가스의 화학 반응으로 형성된 입자들을 외부 에너지가 부여된 수증기 형태로 쏘아 증착 시키는 방법으로 도체, 부도체, 반도체의 박막 증착에 모두 사용될 수 있다.",
         "Go to Job Korea": "잡코리아 바로가기",
         "Go to Saramin": "사람인 바로가기",
@@ -279,11 +275,9 @@
         "branch_address_text_2": "031-373-5956, 031-373-5957",
         "branch_address_text_3": "동탄역 하차",
         "branch_address_text_4": "장지천 정류장 하차",
-
         "branch_tab_1_text": "오시는 길",
         "branch_tab_2_text": "지사 소개",
         "branch_tab_2_text_2": "에이피피는 새로운 성장동력을 창출하기 위하여 미국, 베트남, 일본 등 해외 시장으로 사업영역을 넓히고 있습니다.",
-
         "branch_1_title": "베트남 사무소",
         "branch_2_title": "일본 사무소",
         "branch_3_title": "중국 사무소",
@@ -299,7 +293,6 @@
         "contact_placeholder_7": "문의내용",
         "Apply": "지원하기",
         "Removal": "유기물 제거",
-
         "end": "end"
     }
 }

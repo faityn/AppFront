@@ -56,7 +56,7 @@
         "Footer_phone2": "P. 031-373-5957",
         "Footer_address": "A. 18487 7-12, Dongtansandan 2-gil, Hwaseong-si, Gyeonggi-do, Republic of Korea",
         "Footer_phone3": "P. 054-463-9331 ",
-        "Footer_address2": "A. (우)39253 350-27, Gumi-daero, Gumi-si, Gyeongsangbuk-do, Republic of Korea",
+        "Footer_address2": "A. 39253 350-27, Gumi-daero, Gumi-si, Gyeongsangbuk-do, Republic of Korea",
         "Page_Banner_Text": "A professional research business of atmospheric plasma",
         "ceo_greating_text": "I sincerely thank the customer who visited our APP and wish you all the health and happiness. Since its establishment in 2006, APP has developed into a company that leads atmospheric pressure plasma technology with technologv development, challenge consciousness and enthusiasm for creation. The recent technological environment of semiconductors, displays, and parts materials requires demanding parts and ultrafine patterns as required for large data transmission, and requires a powerful eco-friendly surface treatment / nanoprocessing / nano thin film solution that can be easily used in continuous processes (In line processes). APP has developed and supplied various Arp solutions (atmospheric low temperature Ar plasma) through innovation for over 20 years.\n\n -Eco-friendly / High-quality surface treatment solution\n -Ultrafine nanoprocessing solution\n -Ultrafine nano thin film solution\n\n We are providing backs in a continuous process. The plasma technology that APP is making is not a big, heavy expert technology, but a simple, easy technology for users. This allows customers to use the technology of $1 for a value of $10. Our APP always offers value in a creative, challenging spirit,We will become a company that leads change. Thank you.",
         "Certificates": "Certificates",
@@ -264,9 +264,7 @@
         "AFM": "cf) AFM resolution: 0.1nm",
         "Reduction_page_text_1": "Plasma metallurgy is a process that uses plasma from a reducing gas to refine metals from oxides or halogen compounds.\n It is possible to perform reactions or melting that require high temperatures in applications.",
         "Reduction_page_title_2": "AgO Reduction",
-
         "Etching_page_text_1": "Etching is a process of leaving only the necessary parts and cutting away the unnecessary parts. Among them, the dry etching, plasma\n process, is a method of etching the film to be etched by chemical and physical reactions with plasma.",
-
         "Etching_page_text_5": "When removing unnecessary PR after photolithography",
         "Etching_page_text_6": "PR type : Positive (Model: GSR-601)",
         "deposition_page_text": "A process of applying a thin film to the surface of a wafer to give it electrical properties.\n\n The deposition process is a process of applying a desired material to the surface of a wafer in the thickness of a thin film to give it electrical properties.\n\n In this process, several layers of molecular or atomic materials are deposited on the wafer. The quality of the semiconductor is determined by how thinly and uniformly the thin film is applied, so it is one of the most important processes. In addition, because the thickness of the thin film is so thin, precise and detailed technology is required.\n\n Deposition is largely divided into physical vapor deposition (PVD) and chemical vapor deposition (CVD). Physical vapor deposition (PVD) is mainly used for the deposition of metal thin films and does not involve a chemical reaction.\n\n In contrast, chemical vapor deposition (CVD) is a method of depositing particles formed by a chemical reaction of gas in the form of vapor with external energy applied to form a thin film of a conductor, insulator, or semiconductor. Can be used for all depositions.",
@@ -295,7 +293,6 @@
         "contact_placeholder_7": "Message",
         "Apply": "Apply",
         "Removal": "Removal",
-
         "end": "end"
     }
 }
