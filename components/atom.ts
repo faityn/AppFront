@@ -24,7 +24,12 @@ export const productsDetailAtom = atom<ProductsListType[]>({
   default: [],
 });
 
-export const boardListAtom = atom<BoardListType[]>({
-  key: "boardListAtom",
+export const faqListAtom = atom<BoardListType[]>({
+  key: "faqListAtom",
+  default: [],
+});
+
+export const paperDataListAtom = atom<BoardListType[]>({
+  key: "paperDataListAtom",
   default: [],
 });
