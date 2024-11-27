@@ -92,7 +92,7 @@ const HeaderMenu = ({ color, type }: props) => {
             </div>
           </div>
 
-          <div className=" ml-12 max-xl:ml-8 h-full hidden">
+          <div className=" ml-12 max-xl:ml-8 h-full ">
             <div className="flex h-full ">
               <button
                 type="button"
@@ -134,7 +134,7 @@ const HeaderMenu = ({ color, type }: props) => {
         </div>
       </div>
       <div className="-mr-2 flex gap-7 items-center md:hidden  h-[82px]">
-        <div className=" h-full hidden">
+        <div className=" h-full ">
           <div className="flex items-center h-full">
             <button
               type="button"
