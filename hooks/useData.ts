@@ -45,7 +45,7 @@ export const getProductsDetail = async (id: number) => {
 export const getBoardList = async (id: number) => {
   try {
     const response = await fetch(
-      `${process.env.NEXT_PUBLIC_API_URL}/boardInfo/search?master_id=4&page=1&limit=1000`,
+      `${process.env.NEXT_PUBLIC_API_URL}/boardInfo/client?master_id=${id}`,
       {
         method: "GET",
         headers: {
@@ -64,15 +64,15 @@ export const getBoardList = async (id: number) => {
 };
 
 export const sendContact = async (data: ContactType) => {
-const raw = JSON.stringify({
-      name: data?.name,
-      contact: data?.contact,
-      email: data?.email,
-      company_name: data?.company_name,
-      department: data?.department,
-      subject: data?.subject,
-      content: data?.content,
-    });
+  const raw = JSON.stringify({
+    name: data?.name,
+    contact: data?.contact,
+    email: data?.email,
+    company_name: data?.company_name,
+    department: data?.department,
+    subject: data?.subject,
+    content: data?.content,
+  });
   try {
     const response = await fetch(
       `${process.env.NEXT_PUBLIC_API_URL}/contactUs/create`,
