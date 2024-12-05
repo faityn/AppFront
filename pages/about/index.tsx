@@ -43,7 +43,7 @@ const Page = () => {
               <div className="max-w-[976px] mx-auto h-[55px] mb-[-1px] rounded-t-[20px] bg-white z-20"></div>
             </div>
           </div>
-          <div className="max-w-[976px] max-md:mt-8 mx-auto bg-white text-[18px] text-[#555555] text-center px-10 max-md:px-4">
+          <div className="max-w-[976px] max-md:mt-8 mx-auto bg-white text-[18px] text-[#555555] text-left px-12 max-md:px-4">
             {t("our_company_page_text_2")}
           </div>
         </div>
@@ -54,8 +54,10 @@ const Page = () => {
               return (
                 <div key={index} className="col-span-4 max-md:col-span-6">
                   <div className="bg-[#EBEFF8] h-[188px] flex flex-col items-center justify-center p-4">
-                    <div className="text-md text-[#555555]">{item?.title}</div>
-                    <div className="text-primary text-xl text-center">
+                    <div className="text-xl font-semibold text-[#555555]">
+                      {item?.title}
+                    </div>
+                    <div className="text-primary font-medium text-[18px] text-center">
                       {item?.text}
                     </div>
                   </div>
@@ -83,7 +85,7 @@ const Page = () => {
               <div className="max-w-[976px] mx-auto h-[55px] mb-[-1px] rounded-t-[20px] bg-white z-20"></div>
             </div>
           </div>
-          <div className="max-md:mt-8 max-w-[976px]  mx-auto bg-white text-[18px] text-[#555555] text-center px-10 max-md:px-4 ">
+          <div className="max-md:mt-8 max-w-[976px]  mx-auto bg-white text-[18px] text-[#555555] text-left px-12 max-md:px-4 ">
             {t("our_company_page_text_3")}
           </div>
         </div>
@@ -107,7 +109,7 @@ const Page = () => {
               <div className="max-w-[976px] mx-auto h-[55px] mb-[-1px] rounded-t-[20px] bg-white z-20"></div>
             </div>
           </div>
-          <div className="max-w-[976px] max-md:mt-10 mx-auto bg-white text-[18px] text-[#555555] text-center px-10 max-md:px-4">
+          <div className="max-w-[976px] max-md:mt-10 mx-auto bg-white text-[18px] text-[#555555] text-left px-10 max-md:px-4">
             {t("our_company_page_text_4")}
           </div>
         </div>
