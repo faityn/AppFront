@@ -62,7 +62,7 @@ const Page = () => {
                   <div className="px-4 mt-[30px] text-black text-[18px] font-semibold text-center">
                     {item?.title}
                   </div>
-                  <div className="px-4 mt-[10px] text-[#555555] text-[18px] text-center">
+                  <div className="px-4 mt-[10px] text-[#555555] text-[18px] text-left">
                     {item?.text}
                   </div>
                 </div>
@@ -94,7 +94,7 @@ const Page = () => {
                     <div className="px-4 mt-[30px] text-black text-[18px] font-semibold text-center">
                       {item?.title}
                     </div>
-                    <div className="px-4 mt-[10px] text-[#555555] text-[18px] text-center">
+                    <div className="px-4 mt-[10px] text-[#555555] text-[18px] text-left">
                       {item?.text}
                     </div>
                   </div>
