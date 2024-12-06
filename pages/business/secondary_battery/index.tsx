@@ -8,8 +8,9 @@ const Page = () => {
   const t = useTranslations("MainPage");
   const PageBannerText = t("Page_Banner_Text");
   const SubMenu = [
-    { subId: "21", title: t("Display"), link: "/business" },
     { subId: "22", title: t("Semiconductor"), link: "/business/semiconductor" },
+    { subId: "21", title: t("Display"), link: "/business" },
+
     {
       subId: "23",
       title: t("Secondary Battery"),
