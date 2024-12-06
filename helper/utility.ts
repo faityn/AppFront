@@ -26,13 +26,14 @@ export const Menu = () => {
       link: "#",
       sub: [
         {
-          name: t("Display"),
-          link: "/business",
-        },
-        {
           name: t("Semiconductor"),
           link: "/business/semiconductor",
         },
+        {
+          name: t("Display"),
+          link: "/business",
+        },
+
         {
           name: t("Secondary Battery"),
           link: "/business/secondary_battery",
@@ -55,10 +56,7 @@ export const Menu = () => {
           name: t("N2 Plasma"),
           link: "/products/n2_plasma",
         },
-        {
-          name: t("Air Plasma"),
-          link: "/products/air_plasma",
-        },
+
         {
           name: t("Power Plasma"),
           link: "/products/power_plasma",
