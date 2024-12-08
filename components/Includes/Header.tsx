@@ -35,7 +35,7 @@ const Header = ({ type }: props) => {
             <HeaderMenu color="white" />
           </div>
         </div>
-        <div className="dropdown-content z-10 hidden absolute w-full bg-gradient-to-r from-[#276CF3] to-[#3042E4] h-[82px] border-t border-white/20"></div>
+        <div className="dropdown-content z-10 hidden absolute w-full h-[82px] border-t border-white/20"></div>
         <MobileMenu />
       </nav>
     </div>
