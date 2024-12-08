@@ -63,20 +63,20 @@ const HeaderMenu = ({ color, type }: props) => {
                 return (
                   <div
                     key={index}
-                    className={`dropdown inline-block   h-full font-[400] ${
+                    className={`dropdown inline-block  relative h-full font-[400] ${
                       color === "white" ? "text-white" : "text-black"
                     } border-b border-transparent hover:border-b hover:border-white `}
                   >
                     <div className=" flex h-full items-center ">
                       {item?.name}
                     </div>
-                    <div className="dropdown-content z-20 hidden absolute left-0 w-full h-full ">
-                      <ul className=" flex gap-10 rounded-3xl items-center h-full">
+                    <div className="dropdown-content absolute z-20 mt-[1px] ml-[-25px] py-3 hidden  w-[200px] h-auto bg-gradient-to-r from-[#276CF3] to-[#3042E4] ">
+                      <ul className="  gap-10 rounded-3xl items-center h-full px-6">
                         {item?.sub?.map((sub, i) => {
                           return (
                             <li key={i} className="">
                               <Link
-                                className="  text-greyText border-b border-transparent hover:border-white py-2  block whitespace-no-wrap"
+                                className="  text-blue-300 border-b border-transparent hover:text-white  py-4  block whitespace-no-wrap"
                                 href={sub?.link}
                               >
                                 {sub?.name}
